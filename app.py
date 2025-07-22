@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from feature_engineering import engineer_features
-from train_model import train_models
+from model import train_models
 from predictor import predict_next_draw
 
 # Title
